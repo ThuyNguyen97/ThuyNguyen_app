@@ -3,9 +3,13 @@
     <%= t "the" %> <%= link_to (t "ruby"), "http://www.railstutorial.org/" %>
     <%= t "by" %> <%= link_to (t "author"), "http://www.michaelhartl.com/" %>
   </small>
-<div class="translate">
-    <span><b><%= link_to "VI", request.path %></b></span>
-    <span><b><%= link_to "EN", request.url + "/?locale=en" %></b></span>
+  <div class="translate">
+    <span><b>
+      <%= link_to_unless I18n.locale == :vi, "VI", locale: :vi %>
+    </b></span>
+    <span><b>
+      <%= link_to_unless I18n.locale == :en, "EN", locale: :en %>
+    </b></span>
   </div>
   <nav>
     <ul>

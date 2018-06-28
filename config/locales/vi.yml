@@ -31,7 +31,7 @@ vi:
         Tìm hiểu về cuốn Ruby on Rails để biết thêm về Sample App tại
       contact_page: "trang"
     new: "Tin tức"
-  user:
+  users:
     new:
       now: "Đăng ký ngay"
       signup: "Đăng ký"
