@@ -1,0 +1,38 @@
+vi:
+  author: "Michael Hartl"
+  the: "Cuốn sách"
+  by: "được viết bởi"
+  ruby: "Ruby on Rails Tutorial"
+  ruby_help: "Rails Tutorial help page"
+  static_pages:
+    home:
+      home: "Trang chủ"
+      welcome: "Chào mừng bạn đến với Sample App"
+      home_page: "Đây là trang chủ của Sample App"
+      now: "Đăng ký ngay"
+      end: "."
+    help:
+      help: "Trợ giúp"
+      get_help_on: "Tìm kiếm trợ giúp trên trang"
+      get_help: >
+        Để tìm kiếm sự trợ giúp tương tự trang web này, tham khảo sách
+      end: "."
+    about:
+      book: "sách"
+      screencast: "có nhiều hình ảnh"
+      about: "Giới thiệu"
+      is: "là một"
+      and: "và"
+      teach_develop: "để dạy cách lập trình 1 trang web với"
+      tutorial: "Đây là 1 ví dụ trong cuốn sách này."
+    contact:  
+      contact: "Liên hệ"
+      contact_ruby: >
+        Tìm hiểu về cuốn Ruby on Rails để biết thêm về Sample App tại
+      contact_page: "trang"
+    new: "Tin tức"
+  user:
+    new:
+      now: "Đăng ký ngay"
+      signup: "Đăng ký"
+      signup_page: "Trang đăng ký tài khoản mới."
