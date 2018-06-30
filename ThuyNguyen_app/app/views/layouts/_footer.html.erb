@@ -1,0 +1,18 @@
+<footer class="footer">
+  <small>
+    <%= t "the" %> <%= link_to (t "ruby"), "http://www.railstutorial.org/" %>
+    <%= t "by" %> <%= link_to (t "author"), "http://www.michaelhartl.com/" %>
+  </small>
+<div class="translate">
+    <span><b><%= link_to "VI", request.path %></b></span>
+    <span><b><%= link_to "EN", request.url + "/?locale=en" %></b></span>
+  </div>
+  <nav>
+    <ul>
+      <li><%= link_to (t "static_pages.about.about"),   about_path %></li>
+      <li><%= link_to (t "static_pages.contact.contact"), contact_path %></li>
+      <li><%= link_to (t "static_pages.new"), 
+        "http://news.railstutorial.org/" %></li>
+    </ul>
+  </nav>
+</footer>
