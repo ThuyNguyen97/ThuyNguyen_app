@@ -55,6 +55,8 @@ en:
       new: "New user?"
       now: "Sign up now!"
       log_out: "Log out"
+      remember: "Remember me"
+      remember_cb: "Remember me on this computer"
     create:
       success: "Welcome to the Sample App!"
       danger: "Invalid email/password combination"
