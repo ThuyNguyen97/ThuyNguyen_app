@@ -5,6 +5,10 @@ en:
   by: "by"
   ruby: "Ruby on Rails Tutorial"
   ruby_help: "Rails Tutorial help page"
+  user: "Users"
+  profile: "Profile"
+  settings: "Settings"
+  account: "Account"
   static_pages:
     home:
       home: "Home"
@@ -43,6 +47,17 @@ en:
       create: "Create my account"
     create:
       success: "Welcome to the Sample App!"
+  sessions:
+    new:
+      title: "Log in"
+      email: "Email"
+      password: "Password"
+      new: "New user?"
+      now: "Sign up now!"
+      log_out: "Log out"
+    create:
+      success: "Welcome to the Sample App!"
+      danger: "Invalid email/password combination"
   error:
     count: "The form contains"
     mes: "error"   
