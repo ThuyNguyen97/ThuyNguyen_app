@@ -1,24 +1,8 @@
 <% provide :title, t(".signup") %>
+<% provide :button_text, t(".create") %>
 <h1><%= t ".signup" %></h1>
-
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
-    <%= form_tag signup_path do %>
-      <%= render "shared/error_messages" %>
-
-      <%= label_tag t(".name") %>
-      <%= text_field_tag "user[name]", nil, class: "form-control" %>
-
-      <%= label_tag t(".email") %>
-      <%= email_field_tag "user[email]", nil, class: "form-control" %>
-
-      <%= label_tag t(".password") %>
-      <%= password_field_tag "user[password]", nil, class: "form-control" %>
-
-      <%= label_tag t(".password_confirmation") %>
-      <%= password_field_tag "user[password_confirmation]", nil, class: "form-control" %>
-
-      <%= submit_tag t(".create"), class: "btn btn-primary" %>
-    <% end %>
+    <%= render "form" %>
   </div>
 </div>
