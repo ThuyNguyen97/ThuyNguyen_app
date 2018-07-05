@@ -1,4 +1,7 @@
 en:
+  account_activation: "Account activation"
+  actived: "Account activated!"
+  unactived: "Invalid activation link"
   author: "Michael Hartl"
   about: "About"
   the: "The"
@@ -47,11 +50,13 @@ en:
       create: "Create my account"
     create:
       success: "Welcome to the Sample App!"
+      check: "Please check your email to activate your account."
     user:
       confirm: "Are you sure?"
       delete: "delete"
     index:
       title: "All users"
+      danger: "Please log in"
     form:
       name: "Name"
       email: "Email"
@@ -76,6 +81,16 @@ en:
     create:
       success: "Welcome to the Sample App!"
       danger: "Invalid email/password combination"
+      not_actived: |
+        Account not activated. 
+        Check your email for the activation link.
+  user_mailer:
+    account_activation:
+      hi: "Hi"
+      check: >
+        "Welcome to the Sample App! 
+        Click on the link below to activate your account:"
+      active: "Activate"
   error:
     count: "The form contains"
-    mes: "error"   
+    mes: "error" 
