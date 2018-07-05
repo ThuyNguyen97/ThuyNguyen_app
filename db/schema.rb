@@ -1,4 +1,4 @@
-ActiveRecord::Schema.define(version: 2018_07_04_041457) do
+ActiveRecord::Schema.define(version: 2018_07_04_081306) do
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "email"
@@ -6,5 +6,6 @@ ActiveRecord::Schema.define(version: 2018_07_04_041457) do
     t.string "remember_digest"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean "admin"
   end
 end

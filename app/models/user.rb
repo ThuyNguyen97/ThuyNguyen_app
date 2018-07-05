@@ -11,7 +11,8 @@ class User < ApplicationRecord
   validates :name, presence: true,
     length: {maximum: Settings.length.max_name}
   validates :password, presence: true,
-    length: {minimum: Settings.length.min_pass}
+    length: {minimum: Settings.length.min_pass},
+    allow_nil: true
 
   before_save :email_downcase
 

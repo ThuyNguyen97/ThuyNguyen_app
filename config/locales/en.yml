@@ -2,6 +2,10 @@ en:
   author: "Michael Hartl"
   about: "About"
   the: "The"
+  save: "Save changes"
+  edit: "Edit user"
+  change: "Change"
+  update: "Update profile"
   by: "by"
   ruby: "Ruby on Rails Tutorial"
   ruby_help: "Rails Tutorial help page"
@@ -40,13 +44,25 @@ en:
       now: "Sign up now"
       signup: "Sign Up"
       signup_page: "This will be a signup page for new users."
+      create: "Create my account"
+    create:
+      success: "Welcome to the Sample App!"
+    user:
+      confirm: "Are you sure?"
+      delete: "delete"
+    index:
+      title: "All users"
+    form:
       name: "Name"
       email: "Email"
       password: "Password"
       password_confirmation: "Confirmation"
-      create: "Create my account"
-    create:
-      success: "Welcome to the Sample App!"
+    update:
+      success: "Profile updated"
+    destroy:
+      success: "User deleted"
+    edit:
+      danger: "Please log in."
   sessions:
     new:
       title: "Log in"
