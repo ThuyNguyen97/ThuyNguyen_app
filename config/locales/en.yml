@@ -1,5 +1,6 @@
 en:
   account_activation: "Account activation"
+  ago: "ago."
   alert_image: "Maximum file size is 5MB. Please choose a smaller file."
   actived: "Account activated!"
   unactived: "Invalid activation link"
@@ -16,10 +17,16 @@ en:
   change: "Change"
   update: "Update profile"
   by: "by"
+  follow: "Follow"
+  following: "following"
+  followers: "followers"
+  unfollow: "Unfollow"
+  picture_size: "should be less than 5MB"
   ruby: "Ruby on Rails Tutorial"
   ruby_help: "Rails Tutorial help page"
   user: "Users"
   micropost: "micropost"
+  microposts_count: "Microposts: "
   profile: "Profile"
   view_profile: "View my profile"
   post: "Post"
@@ -32,6 +39,7 @@ en:
   rs_pass: "Password has been reset."
   exp_pass: "Password reset has expired."
   info: "Email sent with password reset instructions"
+  post: "Posted"
   static_pages:
     home:
       home: "Home"
