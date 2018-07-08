@@ -1,4 +1,5 @@
 Rails.application.configure do
+  config.middleware.use I18n::JS::Middleware
   config.cache_classes = false
   config.eager_load = false
   config.consider_all_requests_local = true

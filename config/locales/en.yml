@@ -1,9 +1,15 @@
 en:
   account_activation: "Account activation"
+  alert_image: "Maximum file size is 5MB. Please choose a smaller file."
   actived: "Account activated!"
   unactived: "Invalid activation link"
   author: "Michael Hartl"
+  post: "Posted "
+  ago: " ago."
   about: "About"
+  compose: "Compose new micropost..."
+  delete: "delete"
+  sure: "You sure?"
   the: "The"
   save: "Save changes"
   edit: "Edit user"
@@ -13,7 +19,11 @@ en:
   ruby: "Ruby on Rails Tutorial"
   ruby_help: "Rails Tutorial help page"
   user: "Users"
+  micropost: "micropost"
   profile: "Profile"
+  view_profile: "View my profile"
+  post: "Post"
+  image_alert: "less be than 5MB"
   settings: "Settings"
   account: "Account"
   not_found: "Email address not found"
@@ -29,6 +39,7 @@ en:
       home_page: "This is the home page for the"
       now: "Sign up now"
       end: "sample application."
+      feed: "Micropost Feed"
     help: 
       help: "Help"
       get_help_on: "Get help on the Ruby on Rails Tutorial at the"
@@ -116,6 +127,11 @@ en:
       title: "Forgot password"
       submit: "Submit"
       email: "Email"
+  microposts:
+    create:
+      success: "Micropost created!"
+    destroy:
+      success: "Micropost deleted"
   error:
     count: "The form contains"
     mes: "error" 

@@ -8,7 +8,9 @@ class UsersController < ApplicationController
     @users = User.paginate page: params[:page]
   end
 
-  def show; end
+  def show
+    @microposts = user.microposts.paginate page: params[:page]
+  end
 
   def new
     @user = User.new
@@ -41,13 +43,6 @@ class UsersController < ApplicationController
     user.destroy
     flash[:success] = t ".success"
     redirect_to users_path
-  end
-
-  def logged_in_user
-    return false if logged_in?
-    store_location
-    flash[:danger] = t ".danger"
-    redirect_to login_path
   end
 
   def correct_user

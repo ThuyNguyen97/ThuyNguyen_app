@@ -10,7 +10,7 @@ class CreateUsers < ActiveRecord::Migration[5.2]
       t.boolean :activated, default:false
       t.datetime :activated_at
       t.string :reset_digest
-      t.date_time :reset_send_at
+      t.datetime :reset_send_at
       t.timestamps
     end
   end
