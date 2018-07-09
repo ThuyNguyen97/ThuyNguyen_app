@@ -2,7 +2,10 @@ length:
   max_name: 50
   max_email: 255
   min_pass: 6
+  max_content: 140
 size:
   large: 80
   medium: 50
+image:
+  size: 400
 

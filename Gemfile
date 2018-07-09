@@ -39,11 +39,18 @@ gem "bootstrap-will_paginate", "1.0.0"
 
 gem "figaro"
 
+gem "carrierwave", "1.2.2"
+
+gem "mini_magick", "4.7.0"
+
+gem "i18n-js"
+
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
 end
 
 group :development do
+  gem "fog", "1.42"
   gem "listen", ">= 3.0.5", "< 3.2"
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
