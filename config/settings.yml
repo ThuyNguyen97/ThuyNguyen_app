@@ -6,6 +6,7 @@ length:
 size:
   large: 80
   medium: 50
+  small: 30
 image:
   size: 400
 

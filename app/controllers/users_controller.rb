@@ -1,7 +1,9 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, only: %i(index edit update destroy)
+  before_action :logged_in_user, only: %i(index edit update destroy
+    following followers)
   before_action :correct_user, only: %i(edit update)
-  before_action :find_user, only: %i(show edit update destroy)
+  before_action :find_user, only: %i(show edit update destroy
+    following followers)
   before_action :admin_user, only: :destroy
 
   def index
@@ -52,6 +54,18 @@ class UsersController < ApplicationController
 
   def admin_user
     redirect_to(root_path) unless current_user.admin?
+  end
+
+  def following
+    @title = t "following"
+    @users = user.following.paginate page: params[:page]
+    render "show_follow"
+  end
+
+  def followers
+    @title = t "followers"
+    @users = user.followers.paginate page: params[:page]
+    render "show_follow"
   end
 
   private
